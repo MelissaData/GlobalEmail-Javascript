@@ -158,7 +158,7 @@
 
         function doVerify() {
 			var xhttp = new XMLHttpRequest();
-			var url = "https://globalemail.melissadata.net/v4/WEB/GlobalEmail/doGlobalEmail?";
+			var url = "https://globalemail.melissadata.net/v3/WEB/GlobalEmail/doGlobalEmail?";
 			url += "&id=" + encodeURIComponent($('input[name=id]').val());
 			url += "&opt=" + getOpt().replace(/,\s*$/, "");
 			url += getUserInput();
